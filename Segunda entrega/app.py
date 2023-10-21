@@ -5,6 +5,7 @@ import math # Se importa math
 
 app = dash.Dash(__name__,external_stylesheets=[ dbc.themes.BOOTSTRAP]) # Se inicializa la aplicación Dash con el tema Bootstrap
 server = app.server
+
 from frontend.main import layout #Se importa la función layout de la hoja main
  
 app.layout = layout # Establece el diseño de la aplicación como el layout importado
